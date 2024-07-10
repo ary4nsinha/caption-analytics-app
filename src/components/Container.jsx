@@ -21,7 +21,7 @@ export default function Container() {
   };
 
   return (
-    <main className="container">
+    <main className="container flex  w-[1050px] h-[520px] rounded-xl mt-[55px] overflow-hidden relative">
       <Textarea text={text} setText={setText} />
       <Stats stats={stats} />{" "}
       {/*before we had to write out props individually here, so we created a stats object and defined everything there and just called it here  */}
